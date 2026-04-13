@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/elisaffetta/Desktop/dev/lead-magnets-gobanana/lead-magnet-01-white-background/images)",
+      "Bash(mkdir -p /Users/elisaffetta/Desktop/dev/lead-magnets-gobanana/lead-magnet-02-infographic/images)",
+      "Bash(mkdir -p /Users/elisaffetta/Desktop/dev/lead-magnets-gobanana/shared/images)",
+      "Bash(python3)",
+      "Bash(open \"http://localhost:8081/lead-magnet-01-white-background/index.html\")"
+    ]
+  }
+}

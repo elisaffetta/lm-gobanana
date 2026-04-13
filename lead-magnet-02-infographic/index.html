@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Инфографика для WB и Ozon: 5 промптов, которые продают вместо тебя — GoBanana</title>
+  <meta name="description" content="5 промптов для инфографики на Wildberries и Ozon — glassmorphism, тёмный голограф, натуральный стиль. Без дизайнера, без Figma, за 60 секунд в GoBanana.">
+  <meta property="og:title" content="Инфографика для WB и Ozon: 5 промптов, которые продают вместо тебя">
+  <meta property="og:description" content="5 промптов для инфографики на Wildberries и Ozon — glassmorphism, тёмный голограф, натуральный стиль. Без дизайнера, без Figma, за 60 секунд в GoBanana.">
+  <meta property="og:image" content="https://gobanana.ru/og-image.jpg">
+  <meta property="og:url" content="https://gobanana.ru/guides/infographic-wb">
+  <link rel="canonical" href="https://gobanana.ru/guides/infographic-wb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="https://gobanana.ru" class="logo">gobanana<span>.</span></a>
+    <div class="header-actions">
+      <button class="btn-ghost btn-icon" onclick="sharePage()">↗ Поделиться</button>
+      <button class="btn-ghost btn-icon" onclick="window.print()">⬇ PDF</button>
+      <a href="https://gobanana.ru" target="_blank" rel="noopener" class="btn-header">Попробовать бесплатно</a>
+    </div>
+  </div>
+</header>
+
+<!-- GALLERY -->
+<section class="gallery-section">
+  <div class="gallery-track-wrap">
+    <div class="gallery-track" id="galleryTrack">
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-1">
+          <div class="gallery-placeholder-icon">✨</div>
+          <div>Glassmorphism<br>светлый</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-2">
+          <div class="gallery-placeholder-icon">🌀</div>
+          <div>Голограф<br>тёмный</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-3">
+          <div class="gallery-placeholder-icon">🌸</div>
+          <div>Натуральный<br>с цветами</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-4">
+          <div class="gallery-placeholder-icon">🪵</div>
+          <div>Текстурный<br>стиль</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-5">
+          <div class="gallery-placeholder-icon">⚡</div>
+          <div>Сравнение<br>до/после</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-1">
+          <div class="gallery-placeholder-icon">💄</div>
+          <div>Косметика<br>инфографика</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-2">
+          <div class="gallery-placeholder-icon">🎧</div>
+          <div>Гаджеты<br>характеристики</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-3">
+          <div class="gallery-placeholder-icon">🏠</div>
+          <div>Товары<br>для дома</div>
+        </div>
+      </div>
+      <!-- duplicate for seamless loop -->
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-1">
+          <div class="gallery-placeholder-icon">✨</div>
+          <div>Glassmorphism<br>светлый</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-2">
+          <div class="gallery-placeholder-icon">🌀</div>
+          <div>Голограф<br>тёмный</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-3">
+          <div class="gallery-placeholder-icon">🌸</div>
+          <div>Натуральный<br>с цветами</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-4">
+          <div class="gallery-placeholder-icon">🪵</div>
+          <div>Текстурный<br>стиль</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-5">
+          <div class="gallery-placeholder-icon">⚡</div>
+          <div>Сравнение<br>до/после</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-1">
+          <div class="gallery-placeholder-icon">💄</div>
+          <div>Косметика<br>инфографика</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-2">
+          <div class="gallery-placeholder-icon">🎧</div>
+          <div>Гаджеты<br>характеристики</div>
+        </div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <div class="gallery-placeholder gallery-placeholder-3">
+          <div class="gallery-placeholder-icon">🏠</div>
+          <div>Товары<br>для дома</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Инфографика для WB и Ozon: 5 промптов, которые продают вместо тебя</h1>
+  <p class="hero-lead">Главное фото получает клик. Инфографика делает продажу. Дизайнер берёт 2–3 тысячи за один слайд и делает его 2–3 дня. GoBanana делает то же самое за 60 секунд прямо из браузера — и с первого раза.</p>
+  <div class="hero-meta">
+    <div class="hero-badge"><strong>5</strong> готовых промптов</div>
+    <div class="hero-badge"><strong>60 сек</strong> на слайд</div>
+    <div class="hero-badge"><strong>4 стиля</strong> под любую нишу</div>
+  </div>
+  <div class="hero-actions">
+    <button class="btn-ghost" onclick="sharePage()">↗ Поделиться</button>
+    <button class="btn-ghost" onclick="window.print()">⬇ Сохранить PDF</button>
+  </div>
+</div>
+
+<!-- LAYOUT -->
+<div class="page-layout">
+
+  <!-- TOC SIDEBAR (desktop) -->
+  <aside class="toc-sidebar" id="tocSidebar">
+    <div class="toc-title">Содержание</div>
+    <ul class="toc-list" id="tocListDesktop"></ul>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content" id="mainContent">
+
+    <!-- TOC ACCORDION (mobile) -->
+    <div class="toc-accordion" id="tocAccordion">
+      <button class="toc-accordion-btn" onclick="toggleToc()">
+        <span>Содержание</span>
+        <span class="toc-accordion-arrow">▾</span>
+      </button>
+      <div class="toc-accordion-body">
+        <div class="toc-accordion-inner">
+          <ul class="toc-list" id="tocListMobile"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION: HOW IT WORKS -->
+    <h2>Как это работает</h2>
+
+    <p>Обычный дизайнер получает ТЗ, открывает Figma или Photoshop, подбирает шрифты, расставляет блоки — и делает это несколько дней. GoBanana работает иначе: ты даёшь AI-модели фото товара и промпт с описанием стиля, а она сама анализирует товар, подбирает характеристики и создаёт готовый слайд с текстом, плашками и иконками.</p>
+
+    <ol class="steps-list">
+      <li>Фотографируешь товар — подойдёт любой фон, главное чтобы товар был чётким</li>
+      <li>Заходишь на GoBanana.ru, начинаешь новый чат</li>
+      <li>Копируешь нужный промпт из этого гайда, прикрепляешь фото товара</li>
+      <li>GoBanana сам ищет информацию о товаре в интернете и генерирует инфографику</li>
+      <li>Через 60 секунд — готовый слайд с текстом, плашками и стилем под нишу</li>
+      <li>Если нужно поменять текст на плашках — пишешь в том же чате, AI переделывает только нужное</li>
+    </ol>
+
+    <p class="text2">GoBanana работает через браузер без установки. Оплата картой РФ от 150 ₽. Первые 3 генерации — бесплатно, без привязки карты.</p>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: WHY INFOGRAPHIC MATTERS -->
+    <h2>Почему инфографика важнее, чем кажется</h2>
+
+    <p>Большинство селлеров недооценивают слайды 2–5. Логика понятна: сначала белый фон на главное фото, потом разберёмся. Но «разберёмся» в итоге стоит денег. Вот что на самом деле происходит в карточке.</p>
+
+    <p>Покупатель видит твой товар в выдаче, кликает. Главное фото зацепило — это 50% работы. Дальше он листает слайды и за 5–7 секунд принимает решение: в корзину или назад. За эти секунды он смотрит не на форму товара, а на информацию: это то, что мне нужно? Это стоит своих денег? Это лучше, чем у конкурента по соседству?</p>
+
+    <p>Слайды без текста и структуры на этот вопрос не отвечают. Инфографика — отвечает.</p>
+
+    <p><strong>Что конкретно влияет на конверсию в корзину:</strong></p>
+    <ul class="bullet-list">
+      <li><strong>Количество слайдов с текстом и плашками</strong> — чем больше конкретики, тем выше конверсия</li>
+      <li><strong>Визуальный стиль под нишу</strong> — глянцевый для косметики, строгий для техники, живой для еды</li>
+      <li><strong>Структура информации</strong> — покупатель должен получить главный аргумент за 3 секунды</li>
+      <li><strong>Читаемость на мобильном</strong> — большинство покупает с телефона, шрифт должен читаться без приближения</li>
+    </ul>
+
+    <p><strong>Три типа информации, которая работает на инфографике:</strong></p>
+    <ol class="numbered-list">
+      <li><strong>Характеристики с цифрами:</strong> «держит форму 5 лет», «водонепроницаем до 50м», «1200 мАч»</li>
+      <li><strong>Сравнение:</strong> что есть у вас и чего нет у дешёвых аналогов</li>
+      <li><strong>Применение:</strong> где и как использовать, кому подойдёт</li>
+    </ol>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: STYLES -->
+    <h2>Четыре стиля инфографики — и когда каждый работает</h2>
+
+    <p>Не все стили одинаково хорошо работают в разных нишах. Выбор стиля — это не вкусовщина, это стратегия. Вот что сейчас в тренде на WB и Ozon:</p>
+
+    <div class="styles-grid">
+      <div class="style-card style-card-glass">
+        <div class="style-card-name">✦ Glassmorphism</div>
+        <div class="style-card-desc">Полупрозрачные блоки с blur-эффектом на пастельном фоне. Смотрится дорого и современно, читается легко. Самый «безопасный» выбор — работает в большинстве ниш.</div>
+        <div class="style-card-niches">Косметика, дом, детские, одежда</div>
+      </div>
+      <div class="style-card style-card-holo">
+        <div class="style-card-name">◈ Голографический</div>
+        <div class="style-card-desc">Тёмный фон с перламутровыми переливами — фиолетовый, бирюзовый, розовый. Выделяется в выдаче среди белых карточек конкурентов.</div>
+        <div class="style-card-niches">Гаджеты, электроника, спорт-тех</div>
+      </div>
+      <div class="style-card style-card-natural">
+        <div class="style-card-name">❋ Натуральный</div>
+        <div class="style-card-desc">Живые цветы или растения на размытом фоне. Атмосферный и живой — покупатель «чувствует» товар ещё до прочтения описания.</div>
+        <div class="style-card-niches">Натур. косметика, свечи, чаи, еда</div>
+      </div>
+      <div class="style-card style-card-texture">
+        <div class="style-card-name">▦ Текстурный</div>
+        <div class="style-card-desc">Фон = увеличенная текстура самого товара. Кожаная сумка на фоне кожи. Создаёт ощущение материала раньше, чем покупатель читает описание.</div>
+        <div class="style-card-niches">Кожа, дерево, шерсть, металл</div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: FOR WHOM -->
+    <h2>Кому это нужно прямо сейчас</h2>
+
+    <div class="audience-list">
+      <div class="audience-item">
+        <div class="audience-who">Селлер в конкурентной нише</div>
+        <div class="audience-problem">Ниша забита одинаковыми карточками — все продают плюс-минус одно и то же. Карточка без инфографики не объясняет, почему купить именно у тебя. Покупатель выбирает по цене, и ты постоянно в гонке демпинга.</div>
+        <div class="audience-solution">→ Промпт #1 (glassmorphism) + Промпт #5 (сравнение до/после) — объясняют отличие через визуал, не через слова в описании.</div>
+      </div>
+      <hr class="audience-divider">
+      <div class="audience-item">
+        <div class="audience-who">Продавец косметики, товаров для дома или еды</div>
+        <div class="audience-problem">Товар нужно не просто показать, а «продать атмосферу». Покупатель должен почувствовать, как он пахнет, какое настроение создаёт. Фото упаковки это не передаёт.</div>
+        <div class="audience-solution">→ Промпт #3 (натуральный с цветами) — создаёт нужное ощущение сразу. Без дизайнера, без фотосессии с реквизитом.</div>
+      </div>
+      <hr class="audience-divider">
+      <div class="audience-item">
+        <div class="audience-who">Продавец гаджетов и техники</div>
+        <div class="audience-problem">Покупатель техники — рациональный. Ему нужны цифры, характеристики, сравнение. «Выглядит красиво» не продаёт. «Заряд на 72 часа. Водозащита IPX5. Совместим с iOS и Android.» — продаёт.</div>
+        <div class="audience-solution">→ Промпт #2 (голографический тёмный) — технологичный стиль плюс конкретные характеристики на плашках.</div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: HOW AI READS PROMPTS -->
+    <h2>Как AI добавляет текст на изображение — и как это использовать</h2>
+
+    <p>Это важный момент, который определяет качество результата. AI-модели работают с текстом на изображениях не так, как с формами и цветами — есть несколько правил, которые меняют всё.</p>
+
+    <div class="ai-rules">
+      <div class="ai-rule">
+        <div class="ai-rule-badge">Правило 1</div>
+        <div class="ai-rule-text"><strong>Только кириллица.</strong> Самое важное. В промптах для инфографики никогда не пиши латиницей тот текст, который должен появиться на карточке. AI может «прочитать» инструкцию на английском, но текст на плашках должен быть кириллицей — иначе получишь нечитаемые символы. Все 5 промптов в этом гайде уже написаны с этим учётом.</div>
+      </div>
+      <div class="ai-rule">
+        <div class="ai-rule-badge">Правило 2</div>
+        <div class="ai-rule-text"><strong>Короткие фразы — 2–4 слова на плашку.</strong> AI гораздо точнее воспроизводит короткий текст. «Не промокает» лучше, чем «Обеспечивает надёжную защиту от влаги». Дополнительный бонус: короткие фразы лучше читаются на мобильном.</div>
+      </div>
+      <div class="ai-rule">
+        <div class="ai-rule-badge">Правило 3</div>
+        <div class="ai-rule-text"><strong>Числа и цифры работают отлично.</strong> «5 лет гарантии», «IPX5», «1200 мАч» — AI точно воспроизводит цифры. Числа на плашках создают ощущение конкретности и экспертности. Используй это максимально.</div>
+      </div>
+      <div class="ai-rule">
+        <div class="ai-rule-badge">Правило 4</div>
+        <div class="ai-rule-text"><strong>AI может найти информацию о товаре сам.</strong> Все промпты в этом гайде содержат фразу «Найди в интернете актуальную информацию об этом товаре». Это работает: GoBanana использует модели с доступом к поиску и сам подбирает характеристики для большинства популярных товаров. Тебе не нужно заранее составлять список выгод — только загрузить фото.</div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: PROMPTS -->
+    <h2>Промпты</h2>
+
+    <p>Копируй промпт в GoBanana, прикрепляй фото товара — и получай готовый слайд. Если нужно уточнить текст на плашках, допиши в том же чате: AI помнит контекст и переделает только нужное.</p>
+
+    <!-- Prompt 1 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #1 — Glassmorphism инфографика (светлая)</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Универсальный стиль для большинства ниш — косметика, товары для дома, детские, спорт, одежда. Если не знаешь с чего начать — начни с этого. <strong>Что получится:</strong> товар на пастельном градиентном фоне со стеклянными полупрозрачными плашками по бокам, бейдж «ХИТ» сверху — как карточки топ-селлеров в нишах красоты и дома.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, характеристики, преимущества. Создай инфографичную карточку для Wildberries и Ozon. Товар по центру, занимает 50% площади, лёгкое свечение-глоу вокруг. Фон — мягкий пастельный градиент под цвет упаковки товара. Все текстовые блоки на стеклянных плашках: полупрозрачный белый фон, блюр, тонкая белая обводка, лёгкая тень. Сверху: аккуратный закруглённый бейдж «ХИТ» — маленький, в цвет акцента. Заголовок: название товара, крупный жирный шрифт. По бокам: четыре преимущества на отдельных плашках — иконка плюс короткая фраза 2–4 слова. Снизу: две-три характеристики в строку на тёмной полупрозрачной плашке. Шрифт Монтсеррат Болд и Медиум. Только кириллица. Много воздуха, чисто, современно. Без латиницы и артефактов. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, характеристики, преимущества. Создай инфографичную карточку для Wildberries и Ozon. Товар по центру, занимает 50% площади, лёгкое свечение-глоу вокруг. Фон — мягкий пастельный градиент под цвет упаковки товара. Все текстовые блоки на стеклянных плашках: полупрозрачный белый фон, блюр, тонкая белая обводка, лёгкая тень. Сверху: аккуратный закруглённый бейдж «ХИТ» — маленький, в цвет акцента. Заголовок: название товара, крупный жирный шрифт. По бокам: четыре преимущества на отдельных плашках — иконка плюс короткая фраза 2–4 слова. Снизу: две-три характеристики в строку на тёмной полупрозрачной плашке. Шрифт Монтсеррат Болд и Медиум. Только кириллица. Много воздуха, чисто, современно. Без латиницы и артефактов. Формат 3:4.</div>
+      <div class="prompt-result">
+        <div class="prompt-result-placeholder">
+          <span>🖼</span> Скриншот результата — пример генерации
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt 2 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #2 — Голографическая инфографика (тёмная)</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Гаджеты, наушники, умные устройства, спортивные товары с технологическим акцентом. Выделяется в выдаче на фоне белых карточек конкурентов. <strong>Что получится:</strong> тёмный фон с голографическими переливами, товар с перламутровым свечением по контуру, характеристики на тёмных плашках — как презентация Apple или Samsung.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, главное преимущество, характеристики. Создай инфографичную карточку для Wildberries и Ozon. Фон — тёмный с голографическим эффектом: переливающиеся радужные разводы как на фольге, мягкие — фиолетовый, бирюзовый, розовый плавно перетекают. Товар по центру с голографическим свечением-ореолом по контуру. Все текстовые плашки — тёмные с перламутровой тонкой обводкой и лёгким голографическим бликом. Вверху: главное преимущество — белый шрифт с перламутровым свечением. По бокам: четыре преимущества на плашках с иконками. Снизу: характеристики на тёмной плашке. Шрифт Монтсеррат Болд. Только кириллица. Трендово, футуристично. Без латиницы и артефактов. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, главное преимущество, характеристики. Создай инфографичную карточку для Wildberries и Ozon. Фон — тёмный с голографическим эффектом: переливающиеся радужные разводы как на фольге, мягкие — фиолетовый, бирюзовый, розовый плавно перетекают. Товар по центру с голографическим свечением-ореолом по контуру. Все текстовые плашки — тёмные с перламутровой тонкой обводкой и лёгким голографическим бликом. Вверху: главное преимущество — белый шрифт с перламутровым свечением. По бокам: четыре преимущества на плашках с иконками. Снизу: характеристики на тёмной плашке. Шрифт Монтсеррат Болд. Только кириллица. Трендово, футуристично. Без латиницы и артефактов. Формат 3:4.</div>
+      <div class="prompt-result">
+        <div class="prompt-result-placeholder">
+          <span>🖼</span> Скриншот результата — пример генерации
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt 3 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #3 — Натуральная инфографика (цветы и боке)</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Косметика с натуральным составом, ароматические свечи, чаи, продукты питания, товары с эко-позиционированием. <strong>Что получится:</strong> живые цветы или растения на размытом фоне (боке), товар чёткий по центру, минималистичные плашки с фактами — атмосферно и живо. Покупатель «чувствует» запах ещё до того, как прочитал описание.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, аромат или ключевое свойство. Создай карточку товара для Wildberries и Ozon. Фон — живые цветы или растения под тематику товара, размытые в боке, насыщенные, но не перебивают товар. Товар стоит по центру, чёткий. Вверху на чистом полупрозрачном пространстве между цветами: название товара крупно жирным. Под названием мелко: категория или бренд. По бокам: два-три ключевых факта — цифра крупно плюс пояснение мелко, на минималистичных полупрозрачных плашках. Шрифт Монтсеррат Болд. Только кириллица. Атмосферно, живо, красиво. Без латиницы и артефактов. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, аромат или ключевое свойство. Создай карточку товара для Wildberries и Ozon. Фон — живые цветы или растения под тематику товара, размытые в боке, насыщенные, но не перебивают товар. Товар стоит по центру, чёткий. Вверху на чистом полупрозрачном пространстве между цветами: название товара крупно жирным. Под названием мелко: категория или бренд. По бокам: два-три ключевых факта — цифра крупно плюс пояснение мелко, на минималистичных полупрозрачных плашках. Шрифт Монтсеррат Болд. Только кириллица. Атмосферно, живо, красиво. Без латиницы и артефактов. Формат 3:4.</div>
+      <div class="prompt-result">
+        <div class="prompt-result-placeholder">
+          <span>🖼</span> Скриншот результата — пример генерации
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt 4 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #4 — Текстурная инфографика</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Премиальные товары, где важно передать качество материала — кожаные изделия, деревянные предметы интерьера, шерстяная одежда, металлические аксессуары. <strong>Что получится:</strong> фон — макрофотография текстуры самого товара. Кожаная сумка на фоне кожи. Товар органично «вырастает» из своего же материала — монолитно и дорого. Покупатель физически чувствует материал.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, материал, ключевое свойство. Создай карточку товара для Wildberries и Ozon. Фон — увеличенная текстура материала товара: кожа, ткань, металл или дерево — размытая, как макрофотография поверхности. Товар поверх своей же текстуры — органичный единый мир. Вверху: название крупно белым. Товар по центру чёткий, с мягкой тенью. По бокам: три свойства материала — короткие фразы на плашках с матовым стеклом. Снизу: одна строка характеристик. Шрифт Ралевей Болд. Только кириллица. Органично, дорого. Без латиницы и артефактов. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре: название, материал, ключевое свойство. Создай карточку товара для Wildberries и Ozon. Фон — увеличенная текстура материала товара: кожа, ткань, металл или дерево — размытая, как макрофотография поверхности. Товар поверх своей же текстуры — органичный единый мир. Вверху: название крупно белым. Товар по центру чёткий, с мягкой тенью. По бокам: три свойства материала — короткие фразы на плашках с матовым стеклом. Снизу: одна строка характеристик. Шрифт Ралевей Болд. Только кириллица. Органично, дорого. Без латиницы и артефактов. Формат 3:4.</div>
+      <div class="prompt-result">
+        <div class="prompt-result-placeholder">
+          <span>🖼</span> Скриншот результата — пример генерации
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt 5 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #5 — Инфографика «Сравнение: без нас и с нами»</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Товары, которые решают конкретную проблему — фильтры для воды, ортопедические стельки, умный органайзер. Работает в любой нише, где есть чёткая боль и чёткое решение. <strong>Что получится:</strong> карточка пополам — левая половина «без нас» в красном с болями, правая «с нами» в зелёном с преимуществами. Товар по центру пересекает границу. Убедительно и наглядно — покупатель сразу понимает, что меняется с вашим товаром.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре и подбери три проблемы, которые он решает. Создай инфографичную карточку для Wildberries и Ozon в стиле сравнения. Фон — чистый светлый градиент от белого к нежно-серому. Карточка разделена на две половины вертикальной линией. Левая сторона: красноватый оттенок, иконка с крестом, заголовок «Без нашего продукта», два-три текстовых пункта-боли на полупрозрачных красноватых плашках. Правая сторона: зелёный или синий оттенок, иконка с галочкой, заголовок «С нашим продуктом», два-три пункта-преимущества на зелёных плашках. По центру снизу: фото товара с лёгким свечением, он пересекает границу двух половин. Внизу: название товара крупно. Шрифт Монтсеррат Болд. Только кириллица. Убедительно, продающе. Без латиницы и артефактов. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Найди в интернете актуальную информацию об этом товаре и подбери три проблемы, которые он решает. Создай инфографичную карточку для Wildberries и Ozon в стиле сравнения. Фон — чистый светлый градиент от белого к нежно-серому. Карточка разделена на две половины вертикальной линией. Левая сторона: красноватый оттенок, иконка с крестом, заголовок «Без нашего продукта», два-три текстовых пункта-боли на полупрозрачных красноватых плашках. Правая сторона: зелёный или синий оттенок, иконка с галочкой, заголовок «С нашим продуктом», два-три пункта-преимущества на зелёных плашках. По центру снизу: фото товара с лёгким свечением, он пересекает границу двух половин. Внизу: название товара крупно. Шрифт Монтсеррат Болд. Только кириллица. Убедительно, продающе. Без латиницы и артефактов. Формат 3:4.</div>
+      <div class="prompt-result">
+        <div class="prompt-result-placeholder">
+          <span>🖼</span> Скриншот результата — пример генерации
+        </div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: LIFEHACKS -->
+    <h2>Лайфхаки и советы</h2>
+
+    <div class="lifehacks-list">
+      <div class="lifehack-card">
+        <div class="lifehack-num">1</div>
+        <div class="lifehack-title">Правило «4 слова»: как правильно описывать преимущества для AI</div>
+        <p>AI воспроизводит короткие фразы точнее длинных. Если хочешь конкретный текст на плашках — добавь в промпт: «Преимущества на плашках: [Слово 1], [Слово 2], [Слово 3], [Слово 4]» и перечисли свои 2–4 слова для каждой плашки. Например: «Не промокает 72ч», «IPX5 защита», «Лёгкие 180г». Чем конкретнее — тем точнее результат и тем лучше конверсия в корзину.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">2</div>
+        <div class="lifehack-title">Что делать, если AI написал текст неправильно</div>
+        <p>Не перегенерируй с нуля. Напиши в том же чате: «Оставь всё как есть, только поменяй текст на плашках: [вставь нужные фразы]». AI перерисует только текст, сохранив стиль и композицию. Это экономит время и токены — не нужно ждать полной перегенерации ради одного слова.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">3</div>
+        <div class="lifehack-title">Как проверить читаемость на мобильном до загрузки</div>
+        <p>Большинство покупателей листают карточки с телефона. Откинь карточку на расстояние вытянутой руки — текст должен читаться без приближения. Если надо жмуриться — шрифт слишком маленький. Допиши в промпт: «Шрифт на плашках крупный, хорошо читается на мобильном экране».</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">4</div>
+        <div class="lifehack-title">Попроси AI подобрать иконки самостоятельно</div>
+        <p>Вместо того чтобы придумывать иконки в промпте, просто напиши: «Иконки на плашках — простые плоские, тематически соответствуют тексту». AI сам подберёт подходящие символы. Не надо думать, какая иконка «правильная» для «водозащита» — AI знает это лучше.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">5</div>
+        <div class="lifehack-title">Как за один раз сделать несколько стилей для А/Б-теста</div>
+        <p>Добавь в конец любого промпта: «Создай три варианта этой карточки: светлый, тёмный и с натуральным фоном». GoBanana сгенерирует три версии — ты загрузишь разные стили в разные периоды или протестируешь через аналитику WB. Это быстрее и дешевле, чем заказывать у дизайнера три варианта.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">6</div>
+        <div class="lifehack-title">Когда инфографика не помогает — и что делать</div>
+        <p>Если карточка с инфографикой всё равно не даёт конверсию — проблема обычно не в стиле, а в содержании. Посмотри на топ-3 конкурентов в своей нише: что написано на их плашках? Какие преимущества они выносят на первый план? Скорее всего, они уже нашли формулировки, которые работают на твою аудиторию. Используй это как отправную точку.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">7</div>
+        <div class="lifehack-title">Пакетная генерация: один стиль для всего ассортимента</div>
+        <p>Если нашёл стиль, который работает — зафиксируй его. Сохрани успешный промпт в отдельный текстовый файл. Для каждого нового SKU просто меняй фото — стиль, шрифты и цветовая схема сохранятся в истории чата GoBanana. Это создаёт визуальное единство карточек всего магазина, что повышает доверие покупателя.</p>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: CHECKLIST -->
+    <h2>Чек-лист: готова ли инфографика к загрузке</h2>
+
+    <ul class="checklist" id="checklistMain">
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Текст на плашках читается без приближения с расстояния вытянутой руки</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">На каждой плашке не больше 4–5 слов</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Нет латинских букв в русском тексте (только кириллица)</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Товар занимает не менее 40–50% площади слайда</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Фон не «конкурирует» с товаром по яркости</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Не больше 4–5 плашек с текстом на одном слайде</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Формат 3:4 (вертикальный), разрешение минимум 900×1200 пикселей</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Стиль инфографики соответствует нише (не голограф для детских игрушек)</span></li>
+    </ul>
+
+    <hr class="section-divider">
+
+    <!-- CTA -->
+    <div class="cta-block">
+      <h2>Попробуй прямо сейчас</h2>
+      <p class="cta-subtitle">Первые 3 генерации — бесплатно. Без карты. Без подписки.</p>
+      <a href="https://gobanana.ru" target="_blank" rel="noopener" class="btn-cta">Открыть GoBanana →</a>
+      <div class="cta-stats">200к+ пользователей · 12М+ генераций</div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- RELATED -->
+    <h3>Ещё полезное по теме</h3>
+
+    <div class="related-grid">
+      <a href="/guides/white-bg-wb" class="related-card">
+        <div class="related-card-title">Белый фон для WB и Ozon: 5 промптов, которые работают с первого раза</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+      <a href="/guides/product-model" class="related-card">
+        <div class="related-card-title">Товар на модели без студии: ghost mannequin и lifestyle за 0 рублей</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+      <a href="/guides/7-slides-kit" class="related-card">
+        <div class="related-card-title">7 слайдов за 15 минут: полный комплект карточки WB/Ozon</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+      <a href="/guides/seasonal" class="related-card">
+        <div class="related-card-title">Сезонные карточки: Новый год, 8 марта, лето — шаблоны промптов</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SOURCES -->
+    <h3>Источники</h3>
+    <ol class="sources-list">
+      <li>Требования к изображениям на Wildberries — WB Help, раздел «Требования к контенту», актуально на апрель 2026</li>
+      <li>Требования к изображениям на Ozon — Ozon Seller Help, раздел «Загрузка фото», актуально на апрель 2026</li>
+    </ol>
+
+  </main>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="https://gobanana.ru" class="logo">gobanana<span>.</span></a>
+    <div class="footer-copy">© 2026 <a href="https://gobanana.ru" target="_blank">GoBanana.ru</a></div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="Пример генерации" width="600" height="800">
+</div>
+
+<script src="../shared/script.js"></script>
+</body>
+</html>

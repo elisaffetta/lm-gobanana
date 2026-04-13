@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Белый фон для WB и Ozon: 8 промптов, которые работают с первого раза — GoBanana</title>
+  <meta name="description" content="Белый фон для карточки товара на Wildberries и Ozon за 30 секунд — 8 готовых промптов для GoBanana, которые работают с первого раза. Без студии и фотографа.">
+  <meta property="og:title" content="Белый фон для WB и Ozon: 8 промптов, которые работают с первого раза">
+  <meta property="og:description" content="Белый фон для карточки товара на Wildberries и Ozon за 30 секунд — 8 готовых промптов для GoBanana, которые работают с первого раза. Без студии и фотографа.">
+  <meta property="og:image" content="https://gobanana.ru/og-image.jpg">
+  <meta property="og:url" content="https://gobanana.ru/guides/white-bg-wb">
+  <link rel="canonical" href="https://gobanana.ru/guides/white-bg-wb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="https://gobanana.ru" class="logo">gobanana<span>.</span></a>
+    <div class="header-actions">
+      <button class="btn-ghost btn-icon" onclick="sharePage()">↗ Поделиться</button>
+      <button class="btn-ghost btn-icon" onclick="window.print()">⬇ PDF</button>
+      <a href="https://gobanana.ru" target="_blank" rel="noopener" class="btn-header">Попробовать бесплатно</a>
+    </div>
+  </div>
+</header>
+
+<!-- GALLERY -->
+<section class="gallery-section">
+  <div class="gallery-track-wrap">
+    <div class="gallery-track" id="galleryTrack">
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-03.jpg" alt="Пример генерации 03">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-07.jpg" alt="Пример генерации 07">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-01.jpg" alt="Пример генерации 01">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-05.jpg" alt="Пример генерации 05">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-08.jpg" alt="Пример генерации 08">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-02.jpg" alt="Пример генерации 02">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-06.jpg" alt="Пример генерации 06">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-04.jpg" alt="Пример генерации 04">
+      </div>
+      <!-- duplicate for seamless loop -->
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-03.jpg" alt="Пример генерации 03">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-07.jpg" alt="Пример генерации 07">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-01.jpg" alt="Пример генерации 01">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-05.jpg" alt="Пример генерации 05">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-08.jpg" alt="Пример генерации 08">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-02.jpg" alt="Пример генерации 02">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-06.jpg" alt="Пример генерации 06">
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/result-04.jpg" alt="Пример генерации 04">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Белый фон для WB и Ozon: 8 промптов, которые работают с первого раза</h1>
+  <p class="hero-lead">Главное фото карточки — первое, что видит покупатель в выдаче. WB и Ozon требуют белый фон, и это не просто правило: карточки с чистым белым фоном алгоритмы ранжируют выше. Студия стоит 10–30 тысяч и занимает неделю. Эти промпты дают студийный результат за 15 секунд прямо из браузера.</p>
+  <div class="hero-meta">
+    <div class="hero-badge"><strong>8</strong> готовых промптов</div>
+    <div class="hero-badge"><strong>15 сек</strong> на результат</div>
+    <div class="hero-badge"><strong>от 9 ₽</strong> за фото</div>
+  </div>
+  <div class="hero-actions">
+    <button class="btn-ghost" onclick="sharePage()">↗ Поделиться</button>
+    <button class="btn-ghost" onclick="window.print()">⬇ Сохранить PDF</button>
+  </div>
+</div>
+
+<!-- LAYOUT -->
+<div class="page-layout">
+
+  <!-- TOC SIDEBAR (desktop) -->
+  <aside class="toc-sidebar" id="tocSidebar">
+    <div class="toc-title">Содержание</div>
+    <ul class="toc-list" id="tocListDesktop"></ul>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content" id="mainContent">
+
+    <!-- TOC ACCORDION (mobile) -->
+    <div class="toc-accordion" id="tocAccordion">
+      <button class="toc-accordion-btn" onclick="toggleToc()">
+        <span>Содержание</span>
+        <span class="toc-accordion-arrow">▾</span>
+      </button>
+      <div class="toc-accordion-body">
+        <div class="toc-accordion-inner">
+          <ul class="toc-list" id="tocListMobile"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION: HOW IT WORKS -->
+    <h2>Как это работает</h2>
+
+    <p>Принцип простой: ты загружаешь фото своего товара — хоть на столе дома — и выбираешь нужный промпт из этого гайда. AI анализирует форму, цвет и все детали товара, и за 10–15 секунд рендерит его уже на нужном фоне. Без студии, без Photoshop, без ожидания.</p>
+
+    <ol class="steps-list">
+      <li>Фотографируешь товар — подойдёт любой фон, даже стол или подоконник</li>
+      <li>Заходишь на GoBanana.ru, начинаешь новый чат</li>
+      <li>Копируешь нужный промпт из этого гайда, прикрепляешь своё фото</li>
+      <li>Через 10–15 секунд получаешь готовое фото со студийным белым фоном</li>
+      <li>Скачиваешь и загружаешь на маркетплейс — фото проходит модерацию с первого раза</li>
+    </ol>
+
+    <p class="text2">GoBanana работает через браузер без установки. Оплата картой РФ от 150 ₽. Первые 3 генерации — бесплатно, без привязки карты.</p>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: FOR WHOM -->
+    <h2>Кому это нужно прямо сейчас</h2>
+
+    <div class="audience-list">
+      <div class="audience-item">
+        <div class="audience-who">Начинающий селлер</div>
+        <div class="audience-problem">20–30 SKU, платить по 5–10 тысяч за съёмку каждой позиции — это минус 150–300 тысяч на старте. А ещё неделя ожидания и правки, потому что фон «не того оттенка».</div>
+        <div class="audience-solution">→ Промпт #1 — универсальный белый фон за 15 секунд. 9 ₽ за фото вместо 5–10 тысяч.</div>
+      </div>
+      <hr class="audience-divider">
+      <div class="audience-item">
+        <div class="audience-who">Продавец одежды или обуви</div>
+        <div class="audience-problem">Нужен ghost mannequin — одежда в объёме без модели. Студия берёт за это 15–20 тысяч за съёмку и требует привезти товар.</div>
+        <div class="audience-solution">→ Промпт #2 — ghost mannequin на белом фоне. Загружаешь фото одежды, получаешь объёмную посадку за 15 секунд.</div>
+      </div>
+      <hr class="audience-divider">
+      <div class="audience-item">
+        <div class="audience-who">Селлер с большим ассортиментом</div>
+        <div class="audience-problem">80+ позиций, постоянно добавляются новые. Ждать фотографа каждый раз — это потеря времени и денег. Фотограф не всегда доступен «прямо сейчас».</div>
+        <div class="audience-solution">→ Все 8 промптов под разные категории товаров. Делаешь сам, когда нужно, без записи и ожидания.</div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: REQUIREMENTS -->
+    <h2>Технические требования WB и Ozon к главному фото</h2>
+
+    <p>Прежде чем использовать промпты — важно понимать, что именно проверяет модерация. Это сэкономит тебе время и переделки.</p>
+
+    <div class="requirements-grid">
+      <div class="req-card">
+        <div class="req-label">Wildberries</div>
+        <ul class="req-list">
+          <li>Фон строго белый — <strong>#FFFFFF</strong>, без серых оттенков</li>
+          <li>Товар занимает <strong>не менее 70%</strong> площади фото</li>
+          <li>Формат <strong>3:4</strong> (вертикальный)</li>
+          <li>Минимум <strong>900×1200 пикселей</strong></li>
+          <li>Без коллажей, текста и надписей на первом фото</li>
+          <li>Без водяных знаков и логотипов магазина</li>
+        </ul>
+      </div>
+      <div class="req-card">
+        <div class="req-label">Ozon</div>
+        <ul class="req-list">
+          <li>Белый или светло-серый фон — допускается до <strong>#F0F0F0</strong></li>
+          <li>Товар занимает <strong>не менее 60%</strong> площади</li>
+          <li>Форматы <strong>1:1</strong> или <strong>3:4</strong></li>
+          <li>Минимум <strong>200×200 пикселей</strong>, рекомендуется 1000×1000+</li>
+          <li>Без текста на главном фото (текст допустим на слайдах 2–7)</li>
+          <li>Без рамок, коллажей, нескольких товаров на одном фото</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="text2">Главная причина отклонения на WB — фон не идеально белый. Промпты в этом гайде специально написаны с указанием #FFFFFF, чтобы AI не уходил в серые оттенки.</p>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: SOURCE PHOTO -->
+    <h2>Как снять исходное фото, чтобы AI правильно понял товар</h2>
+
+    <p>Качество результата напрямую зависит от исходного фото. AI сохраняет то, что видит — если исходник плохой, детали товара будут смазаны или искажены.</p>
+
+    <div class="tips-list">
+      <div class="tip-item">
+        <div class="tip-icon">📐</div>
+        <div>
+          <div class="tip-title">Контрастный фон</div>
+          <div class="tip-text">Тёмный товар — снимай на белом или светлом фоне. Светлый товар — на тёмном. Чем чётче граница между товаром и фоном, тем точнее AI определит форму.</div>
+        </div>
+      </div>
+      <div class="tip-item">
+        <div class="tip-icon">🔍</div>
+        <div>
+          <div class="tip-title">Товар занимает 60–80% кадра</div>
+          <div class="tip-text">Не снимай товар маленьким посередине пустого стола. Подойди ближе или обрежь фото. AI должен чётко видеть все детали — логотип, надписи, фактуру.</div>
+        </div>
+      </div>
+      <div class="tip-item">
+        <div class="tip-icon">💡</div>
+        <div>
+          <div class="tip-title">Равномерное освещение</div>
+          <div class="tip-text">Избегай жёстких теней от прямого солнца — они смазывают форму товара. Лучше всего: рассеянный дневной свет у окна или обычная комнатная лампа с двух сторон.</div>
+        </div>
+      </div>
+      <div class="tip-item">
+        <div class="tip-icon">📷</div>
+        <div>
+          <div class="tip-title">Чёткость, не размытость</div>
+          <div class="tip-text">Фото должно быть резким. Размытые края или смазанный логотип — AI перенесёт размытость в результат. Снимай с телефона в нормальном освещении, не в движении.</div>
+        </div>
+      </div>
+      <div class="tip-item">
+        <div class="tip-icon">↕️</div>
+        <div>
+          <div class="tip-title">Ракурс под задачу</div>
+          <div class="tip-text">Для большинства товаров — три-четверти (угол ~30°), для одежды — фронтальный. Чем ближе исходник к нужному ракурсу, тем точнее AI выставит товар в промпте.</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: PROMPTS -->
+    <h2>Промпты</h2>
+
+    <p>Каждый промпт написан под конкретную категорию товаров. Копируй, вставляй в GoBanana, прикрепляй фото — и получай результат. Если нужно уточнить — просто допиши в том же чате.</p>
+
+    <!-- Prompt 1 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #1 — Универсальный белый фон</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для любого товара — косметика, электроника, товары для дома, аксессуары. Подходит в 90% случаев, начни с него. <strong>Что получится:</strong> товар по центру на чисто белом фоне с мягкими тенями, как в каталоге крупного бренда — пройдёт модерацию WB с первого раза.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Помести товар на профессиональный белый студийный фон: чистый белый (#FFFFFF), плавный переход пола в стену — циклорама. Товар по центру, занимает 70–75% кадра. Ракурс: камера чуть выше уровня товара, угол 15–20°, три-четверти. Освещение — трёхточечная схема: мягкий рассеянный основной свет спереди-сверху, заполняющий с другой стороны убирает тени, контровой сзади создаёт лёгкий ореол. Тени минимальные и мягкие. Все детали товара, логотип и надписи безупречно чёткие. Атмосфера: профессиональная коммерческая съёмка уровня топового бренда. Фотореалистично, commercial product photography, white background. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси его форму, цвет, логотип и все надписи. Помести товар на профессиональный белый студийный фон: чистый белый (#FFFFFF), плавный переход пола в стену — циклорама. Товар по центру, занимает 70–75% кадра. Ракурс: камера чуть выше уровня товара, угол 15–20°, три-четверти. Освещение — трёхточечная схема: мягкий рассеянный основной свет спереди-сверху, заполняющий с другой стороны убирает тени, контровой сзади создаёт лёгкий ореол. Тени минимальные и мягкие. Все детали товара, логотип и надписи безупречно чёткие. Атмосфера: профессиональная коммерческая съёмка уровня топового бренда. Фотореалистично, commercial product photography, white background. Формат 3:4.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-01.jpg" alt="Пример результата — промпт #1">
+      </div>
+    </div>
+
+    <!-- Prompt 2 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #2 — Ghost mannequin для одежды</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для любой одежды — футболки, платья, куртки, свитшоты. WB требует ghost mannequin для категории одежды: видна посадка и форма, но без живого человека. <strong>Что получится:</strong> одежда в объёме на белом фоне — видны швы, фактура, посадка. Без модели, без студии.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото одежды — точно перенеси цвет, фактуру ткани и все надписи или принты. Одежда надета на безликий манекен (ghost mannequin): форма тела читается, лица нет, руки нет — только одежда в объёме. Фон — белая циклорама, плавный переход пола в стену. Манекен по центру. Ракурс: камера на уровне груди манекена, строго фронтальный. Освещение — трёхточечная студийная схема: мягкий основной свет спереди, контровой ореол сзади, заполняющий убирает тени. Все детали одежды, швы и фактура ткани безупречно чёткие. Фотореалистично, commercial fashion studio. Формат 3:4.">Внимательно изучи прикреплённое фото одежды — точно перенеси цвет, фактуру ткани и все надписи или принты. Одежда надета на безликий манекен (ghost mannequin): форма тела читается, лица нет, руки нет — только одежда в объёме. Фон — белая циклорама, плавный переход пола в стену. Манекен по центру. Ракурс: камера на уровне груди манекена, строго фронтальный. Освещение — трёхточечная студийная схема: мягкий основной свет спереди, контровой ореол сзади, заполняющий убирает тени. Все детали одежды, швы и фактура ткани безупречно чёткие. Фотореалистично, commercial fashion studio. Формат 3:4.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-02.jpg" alt="Пример результата — промпт #2">
+      </div>
+    </div>
+
+    <!-- Prompt 3 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #3 — Белый фон с тенью (обувь/аксессуары)</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для обуви, сумок, часов, украшений — товаров, которые выглядят «плоско» без тени. Лёгкая тень даёт объём и ощущение реального предмета. <strong>Что получится:</strong> товар на белой поверхности с мягкой серой тенью снизу — выглядит объёмно и дорого, как в лукбуке.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Помести товар на чисто белую матовую поверхность. Товар по центру, лёгкий поворот три-четверти 20–25°. Под товаром — мягкая натуральная тень на белом полу (drop shadow, не резкая, без чёрного). Фон сзади — белый, плавный переход без линии. Освещение: мягкий рассеянный свет с верхне-левой стороны, лёгкий контровой. Товар идеально чёткий, тень добавляет глубину и реализм. Атмосфера: минималистичная люксовая коммерческая съёмка. Фотореалистично, white minimal product shot. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Помести товар на чисто белую матовую поверхность. Товар по центру, лёгкий поворот три-четверти 20–25°. Под товаром — мягкая натуральная тень на белом полу (drop shadow, не резкая, без чёрного). Фон сзади — белый, плавный переход без линии. Освещение: мягкий рассеянный свет с верхне-левой стороны, лёгкий контровой. Товар идеально чёткий, тень добавляет глубину и реализм. Атмосфера: минималистичная люксовая коммерческая съёмка. Фотореалистично, white minimal product shot. Формат 3:4.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-03.jpg" alt="Пример результата — промпт #3">
+      </div>
+    </div>
+
+    <!-- Prompt 4 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #4 — Белый фон для электроники</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для гаджетов, наушников, зарядок, умных часов, любой техники. Покупатели электроники привыкли к «технологичной» эстетике — чистый свет, глянец, отражение. <strong>Что получится:</strong> гаджет на белом глянцевом фоне с зеркальным отражением — как в официальном каталоге Apple.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип, экран (если есть) и все надписи. Помести товар на белую глянцевую поверхность. Ракурс: три-четверти, угол 30°, камера чуть выше уровня товара. На глянцевой поверхности — зеркальное отражение товара уходит вниз, слегка затухает. Фон — белый с едва заметным светло-серым градиентом снизу. Освещение: холодный чистый белый студийный свет, равномерный, без жёстких теней. Если есть экран — он светится. Все надписи и детали идеально чёткие. Атмосфера: Apple-стиль, технологичность, чистота. Фотореалистично, tech product photography. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип, экран (если есть) и все надписи. Помести товар на белую глянцевую поверхность. Ракурс: три-четверти, угол 30°, камера чуть выше уровня товара. На глянцевой поверхности — зеркальное отражение товара уходит вниз, слегка затухает. Фон — белый с едва заметным светло-серым градиентом снизу. Освещение: холодный чистый белый студийный свет, равномерный, без жёстких теней. Если есть экран — он светится. Все надписи и детали идеально чёткие. Атмосфера: Apple-стиль, технологичность, чистота. Фотореалистично, tech product photography. Формат 3:4.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-04.jpg" alt="Пример результата — промпт #4">
+      </div>
+    </div>
+
+    <!-- Prompt 5 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #5 — Белый фон для косметики</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для кремов, сывороток, духов, декоративной косметики. В бьюти важна «атмосфера» — покупатель должен почувствовать премиальность ещё до прочтения описания. <strong>Что получится:</strong> косметика на белом с едва заметным мрамором, мягкий нежный свет — выглядит как аптека-люкс или витрина Sephora.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Помести товар в центр на белую матовую поверхность с едва заметной текстурой мрамора (прожилки очень лёгкие, не отвлекают). Ракурс: камера чуть выше уровня товара, угол 25–30°, три-четверти. Освещение: мягкий рассеянный свет спереди, лёгкий контровой создаёт нежный ореол вокруг товара. Мягкая тень под товаром. Тон общей картинки — чистый, свежий, белый с лёгким тёплым отливом. Все детали и надписи идеально чёткие. Атмосфера: премиальная бьюти-съёмка, аптека-люкс. Фотореалистично, beauty product shot. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Помести товар в центр на белую матовую поверхность с едва заметной текстурой мрамора (прожилки очень лёгкие, не отвлекают). Ракурс: камера чуть выше уровня товара, угол 25–30°, три-четверти. Освещение: мягкий рассеянный свет спереди, лёгкий контровой создаёт нежный ореол вокруг товара. Мягкая тень под товаром. Тон общей картинки — чистый, свежий, белый с лёгким тёплым отливом. Все детали и надписи идеально чёткие. Атмосфера: премиальная бьюти-съёмка, аптека-люкс. Фотореалистично, beauty product shot. Формат 3:4.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-05.jpg" alt="Пример результата — промпт #5">
+      </div>
+    </div>
+
+    <!-- Prompt 6 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #6 — Flat lay, вид сверху</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для наборов, косметических сетов, канцелярии, продуктов питания, аксессуаров — когда нужно показать всё содержимое или комплект сразу. <strong>Что получится:</strong> все предметы набора аккуратно разложены на белом фоне, камера строго сверху. Хорошо работает как второй слайд карточки — сразу показывает комплектацию.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Разложи товар (или несколько предметов набора) на белой матовой поверхности в аккуратную плоскую композицию. Камера строго сверху, 90° перпендикулярно поверхности — ни малейшего угла наклона. Предметы слегка разнесены, не перекрываются, читается каждый. Общая композиция по центру, занимает 70% кадра. Освещение: равномерный мягкий рассеянный свет без резких теней, никакого глянца. Под каждым предметом едва заметная мягкая тень добавляет глубину. Все надписи и детали безупречно чёткие. Атмосфера: чистая, аккуратная, минималистичная раскладка уровня Pinterest. Фотореалистично, flat lay product photography, white background. Формат 1:1.">Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Разложи товар (или несколько предметов набора) на белой матовой поверхности в аккуратную плоскую композицию. Камера строго сверху, 90° перпендикулярно поверхности — ни малейшего угла наклона. Предметы слегка разнесены, не перекрываются, читается каждый. Общая композиция по центру, занимает 70% кадра. Освещение: равномерный мягкий рассеянный свет без резких теней, никакого глянца. Под каждым предметом едва заметная мягкая тень добавляет глубину. Все надписи и детали безупречно чёткие. Атмосфера: чистая, аккуратная, минималистичная раскладка уровня Pinterest. Фотореалистично, flat lay product photography, white background. Формат 1:1.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-06.jpg" alt="Пример результата — промпт #6">
+      </div>
+    </div>
+
+    <!-- Prompt 7 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #7 — Линейка цветов</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для одежды, аксессуаров, посуды, канцелярии — когда нужно показать один товар в нескольких цветах или вариантах на одном фото. <strong>Что получится:</strong> три варианта товара в разных цветах в ряд — как в каталоге бренда. Используй как отдельный слайд с подписью «Доступные цвета».</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси форму, логотип и все надписи. Создай три одинаковых предмета рядом: каждый в своём цвете — сохрани оригинальный цвет из фото, добавь два близких по тону варианта (например, если оригинал синий — добавь тёмно-синий и голубой). Предметы стоят в ряд с одинаковыми промежутками, строго параллельны, ракурс три-четверти, угол 20°. Фон — белая циклорама, плавный переход. Освещение равномерное, мягкое, без резких теней, все три предмета освещены одинаково. Все предметы идеально чёткие, детали и надписи читаются. Атмосфера: каталожная линейка, аккуратно и профессионально. Фотореалистично, product color range, white background. Формат 16:9.">Внимательно изучи прикреплённое фото товара — точно перенеси форму, логотип и все надписи. Создай три одинаковых предмета рядом: каждый в своём цвете — сохрани оригинальный цвет из фото, добавь два близких по тону варианта (например, если оригинал синий — добавь тёмно-синий и голубой). Предметы стоят в ряд с одинаковыми промежутками, строго параллельны, ракурс три-четверти, угол 20°. Фон — белая циклорама, плавный переход. Освещение равномерное, мягкое, без резких теней, все три предмета освещены одинаково. Все предметы идеально чёткие, детали и надписи читаются. Атмосфера: каталожная линейка, аккуратно и профессионально. Фотореалистично, product color range, white background. Формат 16:9.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-07.jpg" alt="Пример результата — промпт #7">
+      </div>
+    </div>
+
+    <!-- Prompt 8 -->
+    <div class="prompt-block">
+      <div class="prompt-header">
+        <div class="prompt-name">Промпт #8 — Белый lifestyle с реквизитом</div>
+        <button class="copy-btn" onclick="copyPrompt(this)">Скопировать</button>
+      </div>
+      <div class="prompt-when"><strong>Когда использовать:</strong> Для косметики, товаров для дома, декора, продуктов питания — для слайдов 2-7, когда нужна атмосфера без нарушения белого стиля. <strong>Что получится:</strong> товар в нежной стилизованной сцене — всё в белых и бежевых тонах. Реквизит добавляет атмосферу, но не отвлекает. Скандинавский минимализм.</div>
+      <div class="prompt-text" data-prompt="Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Помести товар в центр минималистичной белой сцены. Рядом с товаром добавь 2-3 нейтральных реквизита в белых и бежевых тонах: например, белый камень, сухая веточка, сложенная льняная ткань — ничего яркого, всё монохромное. Реквизит не перекрывает товар и меньше него по размеру. Ракурс: камера чуть выше уровня товара, угол 30°, три-четверти. Фон — белая матовая поверхность, мягкий переход в стену. Освещение: тёплый мягкий рассеянный свет сверху-справа, лёгкие мягкие тени. Все детали и надписи на товаре чёткие. Атмосфера: Скандинавский минимализм, уютно и дорого. Фотореалистично, white lifestyle product photography. Формат 3:4.">Внимательно изучи прикреплённое фото товара — точно перенеси форму, цвет, логотип и все надписи. Помести товар в центр минималистичной белой сцены. Рядом с товаром добавь 2-3 нейтральных реквизита в белых и бежевых тонах: например, белый камень, сухая веточка, сложенная льняная ткань — ничего яркого, всё монохромное. Реквизит не перекрывает товар и меньше него по размеру. Ракурс: камера чуть выше уровня товара, угол 30°, три-четверти. Фон — белая матовая поверхность, мягкий переход в стену. Освещение: тёплый мягкий рассеянный свет сверху-справа, лёгкие мягкие тени. Все детали и надписи на товаре чёткие. Атмосфера: Скандинавский минимализм, уютно и дорого. Фотореалистично, white lifestyle product photography. Формат 3:4.</div>
+      <div class="prompt-result" onclick="openLightbox(this)" style="cursor:pointer">
+        <img src="images/result-08.jpg" alt="Пример результата — промпт #8">
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: LIFEHACKS -->
+    <h2>Лайфхаки и советы</h2>
+
+    <div class="lifehacks-list">
+      <div class="lifehack-card">
+        <div class="lifehack-num">1</div>
+        <div class="lifehack-title">Белый фон — это не только про модерацию</div>
+        <p>Белый фон на главном фото — фактор ранжирования, а не просто требование. Алгоритмы WB и Ozon дают больше показов карточкам, которые соответствуют стандарту. Покупатели тоже реагируют лучше: на белом фоне товар читается чётче, взгляд не отвлекается. CTR карточек с чистым белым фоном в среднем выше, чем у карточек с серым или цветным фоном на первом слайде.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">2</div>
+        <div class="lifehack-title">Три главные ошибки при генерации белого фона</div>
+        <ul class="errors-list">
+          <li><strong>Серый вместо белого:</strong> AI иногда делает фон светло-серым (#F5F5F5). Если это случилось — добавь фразу «чистый белый #FFFFFF».</li>
+          <li><strong>Слишком жёсткие тени:</strong> Если тень чёрная и резкая — добавь «мягкая размытая тень, не чёрная».</li>
+          <li><strong>Артефакты по краям:</strong> Если AI размыл края — загрузи фото на контрастном фоне, чтобы AI чётко видел границы.</li>
+        </ul>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">3</div>
+        <div class="lifehack-title">Как загружать исходное фото, чтобы AI правильно читал товар</div>
+        <p>Сфотографируй товар на контрастном фоне — тёмный товар на светлом фоне, светлый на тёмном. Товар должен занимать минимум 60% кадра. Фото должно быть чётким — не размытым. Чем лучше исходник, тем точнее AI перенесёт детали.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">4</div>
+        <div class="lifehack-title">Как получить несколько ракурсов за один раз</div>
+        <p>Добавь в конец любого промпта: «Создай 3 варианта с разными ракурсами: фронтальный, три-четверти слева, три-четверти справа». GoBanana сгенерирует несколько вариантов — выберешь лучший. Это полезно когда не знаешь, какой ракурс сработает лучше: не угадываешь, а тестируешь три сразу.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">5</div>
+        <div class="lifehack-title">Как проверить, пройдёт ли фото модерацию</div>
+        <p>Не загружай фото сразу — сначала проверь. Открой изображение в браузере или любом просмотрщике, возьми пипетку (в macOS — Digital Color Meter, в Windows — Paint). Кликни на угол фона: если цвет #FFFFFF — всё отлично. Если #F5F5F5 или сероватый — фон не пройдёт автоматическую проверку WB. Ещё убедись, что товар занимает ≥70% площади кадра.</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">6</div>
+        <div class="lifehack-title">Что делать, если модерация WB отклонила фото</div>
+        <p>Самая частая причина — фон не идеально белый. Открой фото в любом редакторе (Photoshop, Preview на Mac, даже Paint) и проверь цвет фона пипеткой. Если это не #FFFFFF, а #F5F5F5 или похожее — напиши в том же чате GoBanana: «Переделай с чисто белым фоном #FFFFFF, без серого оттенка». Вторая частая причина — товар занимает меньше 70% кадра: попроси AI «Увеличь товар, он должен занимать 75% кадра».</p>
+      </div>
+      <div class="lifehack-card">
+        <div class="lifehack-num">7</div>
+        <div class="lifehack-title">Пакетная обработка: 10 SKU за 15 минут</div>
+        <p>Если у тебя несколько товаров одной категории — не копируй промпт каждый раз. Сделай первый товар с промптом, убедись что результат устраивает. Дальше просто меняй фото товара в том же чате — промпт уже в истории, AI его помнит. 10 кремов = 10 фото одного типа. Один раз настроил промпт, дальше меняешь только исходное фото.</p>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION: CHECKLIST -->
+    <h2>Чек-лист: готово ли фото к загрузке на маркетплейс</h2>
+
+    <ul class="checklist" id="checklistMain">
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Фон чисто белый (#FFFFFF)</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Товар по центру, занимает 70–80% кадра</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Все надписи, логотипы, штрихкоды читаются</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Тени мягкие и естественные</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Нет артефактов, размытых краёв, лишних объектов</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Формат 3:4 (вертикальный)</span></li>
+      <li onclick="toggleCheck(this)"><span class="check-box"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="check-label">Разрешение минимум 900×1200 пикселей</span></li>
+    </ul>
+
+    <hr class="section-divider">
+
+    <!-- CTA -->
+    <div class="cta-block">
+      <h2>Попробуй прямо сейчас</h2>
+      <p class="cta-subtitle">Первые 3 генерации — бесплатно. Без карты. Без подписки.</p>
+      <a href="https://gobanana.ru" target="_blank" rel="noopener" class="btn-cta">Открыть GoBanana →</a>
+      <div class="cta-stats">200к+ пользователей · 12М+ генераций</div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- RELATED -->
+    <h3>Ещё полезное по теме</h3>
+
+    <div class="related-grid">
+      <a href="/guides/infographic-wb" class="related-card">
+        <div class="related-card-title">Инфографика с текстом: промпты для слайдов 2–7 карточки WB/Ozon</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+      <a href="/guides/product-model" class="related-card">
+        <div class="related-card-title">Товар на модели без студии: ghost mannequin и lifestyle за 0 рублей</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+      <a href="/guides/lifestyle-scene" class="related-card">
+        <div class="related-card-title">Lifestyle-сцена: товар в жизни — промпты для атмосферных фото</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+      <a href="/guides/7-slides-kit" class="related-card">
+        <div class="related-card-title">7 слайдов за 15 минут: полный комплект карточки WB/Ozon</div>
+        <div class="related-card-link">Читать →</div>
+      </a>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- SOURCES -->
+    <h3>Источники</h3>
+    <ol class="sources-list">
+      <li>Требования к фото товаров на Wildberries — WB Help, раздел «Требования к контенту», актуально на апрель 2026</li>
+      <li>Требования к изображениям на Ozon — Ozon Seller Help, раздел «Загрузка фото», актуально на апрель 2026</li>
+    </ol>
+
+  </main>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="https://gobanana.ru" class="logo">gobanana<span>.</span></a>
+    <div class="footer-copy">© 2026 <a href="https://gobanana.ru" target="_blank">GoBanana.ru</a></div>
+  </div>
+</footer>
+
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="Пример генерации" width="600" height="800">
+</div>
+
+<script src="../shared/script.js"></script>
+</body>
+</html>
