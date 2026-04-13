@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
     hub.innerHTML =
       '<div class="guides-hub-inner">' +
         '<div class="guides-hub-label">Все гайды GoBanana</div>' +
+        '<div class="guides-hub-heading">Изучи другие гайды</div>' +
         '<div class="guides-grid">' + cardsHtml + '</div>' +
       '</div>';
     footer.parentNode.insertBefore(hub, footer);
