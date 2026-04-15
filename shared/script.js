@@ -11,8 +11,7 @@ var GUIDES = [
     num: '02',
     title: 'Инфографика для карточки',
     desc: '5 промптов для слайдов 2–7',
-    url: '../lead-magnet-02-infographic/',
-    slug: 'lead-magnet-02'
+    url: null
   },
   {
     num: '03',
